@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu YouTube</title>
+    <link rel="stylesheet" href="src/App.css">
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>TubeYou</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Explorar</a></li>
+                    <li><a href="#">Inscrições</a></li>
+                    <li><a href="#">Biblioteca</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <div class="video-section">
+            <h2>Vídeos Recentes</h2>
+            <div class="video-list">
+                <!-- Card do primeiro vídeo -->
+                <div class="video-card" onclick="openModal('videos/video1.mp4')">
+                    <img src="imagens/imagem1.png" alt="Descrição do vídeo sobre HTML e CSS" class="thumbnail">
+                    <h3>Como Programar em HTML e CSS</h3>
+                    <p>Aprenda a criar páginas web do zero com HTML e CSS!</p>
+                </div>
+
+                <!-- Card do segundo vídeo -->
+                <div class="video-card" onclick="openModal('videos/video2.mp4')">
+                    <img src="imagens/imagem2.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video3.mp4')">
+                    <img src="imagens/imagem3.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video4.mp4')">
+                    <img src="imagens/imagem4.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video5.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video6.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video7.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video8.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video9.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video10.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video11.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video12.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video13.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video14.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+                <div class="video-card" onclick="openModal('videos/video15.mp4')">
+                    <img src="imagens/imagem5.png" alt="Descrição do vídeo sobre JavaScript" class="thumbnail">
+                    <h3>Introdução ao JavaScript</h3>
+                    <p>Veja como funciona a programação em JavaScript e comece a criar interatividade nas suas páginas!</p>
+                </div>
+
+                <!-- Adicione mais cards conforme necessário -->
+                
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal de Vídeo -->
+    <div id="videoModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <video id="videoPlayer" width="100%" height="auto" controls>
+            <source id="videoSource" src="" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 TubeYou. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Função para abrir o modal e carregar o vídeo
+        function openModal(videoFile) {
+            var videoModal = document.getElementById("videoModal");
+            var videoPlayer = document.getElementById("videoPlayer");
+            var videoSource = document.getElementById("videoSource");
+
+            // Define o caminho do vídeo
+            videoSource.src = videoFile;
+
+            // Carrega o vídeo
+            videoPlayer.load();
+            videoPlayer.play();  // Começa a rodar o vídeo automaticamente quando o modal for aberto
+
+            // Exibe o modal
+            videoModal.style.display = "block";
+        }
+
+        // Função para fechar o modal
+        function closeModal() {
+            var videoModal = document.getElementById("videoModal");
+            var videoPlayer = document.getElementById("videoPlayer");
+
+            // Para a reprodução do vídeo
+            videoPlayer.pause();
+            videoPlayer.currentTime = 0;  // Reseta o vídeo para o início
+
+            // Fecha o modal
+            videoModal.style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

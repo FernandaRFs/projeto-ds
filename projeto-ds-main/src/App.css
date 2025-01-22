@@ -1,0 +1,151 @@
+/* Resetando estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Barra de navegação */
+header {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar .logo h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Seção de Vídeos */
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.video-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.video-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Card de Vídeo */
+.video-card {
+    background-color: white;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px; /* Adicionando espaço entre as linhas de cards */
+}
+
+.video-card:hover {
+    transform: translateY(-10px);
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+}
+
+.video-card h3 {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.video-card p {
+    padding: 0 10px 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Estilo para o modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilo para o vídeo dentro do modal */
+.modal video {
+    margin: 5% auto;
+    display: block;
+    max-width: 90%;  /* Limita a largura do vídeo para não ultrapassar a tela */
+    max-height: 80%; /* Limita a altura do vídeo para não ultrapassar a tela */
+}
+
+/* Estilo para o botão de fechar */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
